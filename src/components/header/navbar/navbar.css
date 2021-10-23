@@ -1,0 +1,30 @@
+:root{
+    --color-principal: #FF8F46;
+    --color-secundario: #46B6FF;
+    --color-subtitulos: #6C6C6C;
+    --color-texto: #949494;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(236, 236, 236, 0.5);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+}
+
+.navbar__logo{
+    color: var(--color-principal);
+    font-size: 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1px #fff;
+}
