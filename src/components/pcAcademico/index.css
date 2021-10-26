@@ -1,0 +1,60 @@
+:root{
+    --color-principal: #FF8F46;
+    --color-secundario: #46B6FF;
+    --color-secundario-hover: #2facff;
+    --color-subtitulos: #6C6C6C;
+    --color-texto: #949494;
+}
+
+.pcAcademico{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pcAcademico__titulo{
+    margin-bottom: 60px;
+    font-size: 30px;
+    color: var(--color-principal);
+}
+
+.pcAcademico__info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.pcAcademico__video video{
+    border-radius: 15px;
+}
+
+.pcAcademico__ingresar{
+    background-image: url('../../assets/imagenes/student.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 15px;
+    width: 320px;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.pcAcademico__ingresar h2 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pcAcademico__ingresar a{
+    list-style: none;
+    text-decoration: none;
+    background: var(--color-secundario);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.pcAcademico__ingresar a:hover{
+    background: var(--color-secundario-hover);
+}
