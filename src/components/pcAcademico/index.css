@@ -4,6 +4,8 @@
     --color-secundario-hover: #2facff;
     --color-subtitulos: #6C6C6C;
     --color-texto: #949494;
+
+    --tamaño-fuente-titulos: 30px;
 }
 
 .pcAcademico{
@@ -15,7 +17,7 @@
 }
 .pcAcademico__titulo{
     margin-bottom: 60px;
-    font-size: 30px;
+    font-size: var(--tamaño-fuente-titulos);
     color: var(--color-principal);
 }
 
@@ -50,10 +52,12 @@
     text-decoration: none;
     background: var(--color-secundario);
     color: #fff;
+    font-weight: 600;
     padding: 10px;
     border-radius: 10px;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
 }
 .pcAcademico__ingresar a:hover{
     background: var(--color-secundario-hover);
