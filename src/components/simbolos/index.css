@@ -1,0 +1,38 @@
+@import url('../../pages/index.css');
+
+.simbolos{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: repeat(5, auto);
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.simbolos__titulo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    font-size: var(--tamaño-fuente-titulos);
+    color: var(--color-principal);
+}
+
+.simbolos__subtitulo{
+    font-size: 24px;
+    align-self: center;
+    color: var(--color-subtitulos);
+}
+.simbolos__subtitulo--aling{
+    justify-self: end;
+}
+
+.simbolos__bandera{
+    border-radius: 15px;
+    border: 2px solid var(--color-texto);
+}
+
+.simbolos p{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    color: var(--color-texto);
+}

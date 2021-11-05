@@ -3,6 +3,8 @@ import Footer from "../components/footer/footer";
 import Header from "../components/header/header";
 import Institucion from "../components/institucion/institucion";
 import PcAcademico from "../components/pcAcademico/pc-academico";
+import Secciones from "../components/secciones/Secciones";
+import Simbolos from "../components/simbolos/simbolos";
 import './index.css';
 
 export default function Home () {
@@ -11,6 +13,8 @@ export default function Home () {
     <Header/>
     <PcAcademico/>
     <Institucion/>
+    <Secciones/>
+    <Simbolos/>
     <Footer/>
   </div>);
 }

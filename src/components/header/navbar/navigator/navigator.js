@@ -12,13 +12,13 @@ export default function Navigator() {
                     Institucional
                     <ul className='navigator__subList'>
                         <li>
-                            <Link to='/institucional/mision/mision'>Misión</Link>
+                            <Link to='/institucional/mision'>Misión</Link>
                         </li>
                         <li>
-                            <Link to='/institucional/vision/vision'>Visión</Link>
+                            <Link to='/institucional/vision'>Visión</Link>
                         </li>
                         <li>
-                            <Link to='/institucional/filosofia/filosofia'>Filosofía</Link>
+                            <Link to='/institucional/filosofia'>Filosofía</Link>
                         </li>
                         <li>
                             <Link to='/'>Principios</Link>
@@ -41,13 +41,13 @@ export default function Navigator() {
                     Proyectos
                     <ul className='navigator__subList'>
                         <li>
-                            <Link to='/proyectos/carteles/proyecto-carteles'>Carteles</Link>
+                            <Link to='/proyectos/proyecto-carteles'>Carteles</Link>
                         </li>
                         <li>
-                            <Link to='/proyectos/quiero/me-quiero-y-quiero'>Proyecto 'Me quiero y quiero'</Link>
+                            <Link to='/proyectos/me-quiero-y-quiero'>Proyecto 'Me quiero y quiero'</Link>
                         </li>
                         <li>
-                            <Link to='/proyectos/democracia/proyecto-democracia'>Democracia</Link>
+                            <Link to='/proyectos/proyecto-democracia'>Democracia</Link>
                         </li>
                     </ul>
                 </li>
@@ -55,7 +55,7 @@ export default function Navigator() {
                     Documentos
                     <ul className='navigator__subList'>
                         <li>
-                            <Link to='/documentos/manual/manual-de-convivencia'>Manual de convivencia</Link>
+                            <Link to='/documentos/manual-de-convivencia'>Manual de convivencia</Link>
                         </li>
                     </ul>
                 </li>

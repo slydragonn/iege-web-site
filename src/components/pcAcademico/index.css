@@ -1,12 +1,4 @@
-:root{
-    --color-principal: #FF8F46;
-    --color-secundario: #46B6FF;
-    --color-secundario-hover: #2facff;
-    --color-subtitulos: #6C6C6C;
-    --color-texto: #949494;
-
-    --tamaño-fuente-titulos: 30px;
-}
+@import url('../../pages/index.css');
 
 .pcAcademico{
     display: flex;

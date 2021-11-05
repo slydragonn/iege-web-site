@@ -1,9 +1,4 @@
-:root{
-    --color-principal: #FF8F46;
-    --color-secundario: #46B6FF;
-    --color-subtitulos: #6C6C6C;
-    --color-texto: #949494;
-}
+@import url('../../../../pages/index.css');
 
 #nav{
     display: flex;

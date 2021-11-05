@@ -3,8 +3,11 @@
 :root{
     --color-principal: #FF8F46;
     --color-secundario: #46B6FF;
+    --color-secundario-hover: #2facff;
     --color-subtitulos: #6C6C6C;
     --color-texto: #949494;
+
+    --tamaño-fuente-titulos: 30px;
 }
 
 *{
@@ -17,21 +20,4 @@
 .homePage{
     display: grid;
     grid-template-columns: 1fr;
-}
-.prueba{
-    height: 1400px;
-    display: flex;
-    justify-content: flex-start;
-}
-.prueba__2{
-    margin-top: 100px;
-    margin-left: 200px;
-    background-image: url('../assets/imagenes/biblioteca.jpg');
-    background-attachment: fixed;
-    background-size: 700px;
-    background-position: 0 ;
-    background-repeat: no-repeat;
-    width: 500px;
-    height: 300px;
-    border-radius: 15px;
 }
