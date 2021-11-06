@@ -19,7 +19,7 @@ export default function Institucion() {
         <div className='institucion__articulo'>
             <img src={principios} alt='principios'/>
             <section className='institucion__info'>
-                <h3><Link to='/institucional/filosofia'>Principios Institucional</Link></h3>
+                <h3><Link to='/institucional/filosofia'>Principios Institucionales</Link></h3>
                 <p>Los principios guían el pensamiento y la acción; son el eslabón principal de la cadena de dirección, clarifican el camino y permite el logro de los objetivos; contribuyen a la constitución de la identidad y a la formación del sentido de pertenencia. Asumidos desde la reflexión se convierten en criterios que iluminan tanto como actitud de los actores, sirviendo además de guía al quehacer colectivo.</p>
             </section>
         </div>
